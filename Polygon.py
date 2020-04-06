@@ -77,7 +77,7 @@ class Polygon:
         Creates a random polygon.
         :return: None.
         """
-        point_amount = randint(0, get_settings()["max_polygon_points"])
+        point_amount = randint(2, get_settings()["max_polygon_points"])
         points = []
         fill = (randint(0, 255), randint(0, 255), randint(0, 255), randint(0, 255))
 

@@ -1,5 +1,5 @@
 import numpy as np
-from PIL import ImageDraw
+from PIL import ImageDraw, Image
 from numpy.random import randint
 
 from Settings import get_settings
@@ -29,10 +29,10 @@ class GeneticDrawing:
         This function produces an image made based on this drawing.
         :return:
         """
-        from PIL import Image
         img = Image.new('RGB', get_settings()["image_size"])
         draw = ImageDraw.Draw(img, 'RGBA')
         self.draw(draw)
+        return img
 
     def add_polygon(self):
         if len(self.polygons) < get_settings()["max_polygons"]:
