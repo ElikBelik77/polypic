@@ -1,2 +1,2 @@
 Genetic algorithm to replicate images using polygons
-![](https://i.imgur.com/NEWLJA9.mp4)
+![](https://s6.gifyu.com/images/3vigv7.md.gif)
