@@ -9,8 +9,9 @@ python run.py -target pikachu.jpg -out data_dir\
 <br/>
 
 ## Examples
+
 ![](Example/Lisa/mona_lisa.bmp)
-![](Example/Lisa/mona_lisa_evolution.gif)
+![Mona Lisa, using 20 polygons](Example/Lisa/mona_lisa_evolution.gif)
 <br/>
 ![](Example/Pikachu/pikachu.jpg)
-![](Example/Pikachu/pikachu_evolution.gif)
+![Pikachu, using 19 polygons](Example/Pikachu/pikachu_evolution.gif)
